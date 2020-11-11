@@ -119,6 +119,7 @@ p {
     line-height: 80px;
     text-align: center;
     color: #fff;
+    text-shadow: 0, 0, 0, 7px;
     background-image: url(../images/sub_title_img.jpg);
     background-size: cover;
     background-position: center;
@@ -144,8 +145,14 @@ p {
 #gallery {
     margin-bottom: 80px;
 }
+#gallery .gallery_box img:first-child {
+    margin-bottom: 5px;
+}
 #gallery .small_img li {
     padding: 0;
+}
+#gallery .small_img img {
+    width: 100%;
 }
 
 /* 오시는 길 */
