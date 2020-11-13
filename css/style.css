@@ -48,6 +48,8 @@ p {
     height: 100vh;
     /* background: #ccc; */
     position: relative;
+    /* border: 2px solid red; */
+    overflow: hidden;
 }
 .main_line {
     width: 1px;
@@ -61,10 +63,15 @@ p {
 #main .img_box {
     width: 100%;
     /* height: 100vh; */
+    height: calc(100vh - 164px - 157px);
+    background: #f80;
+    background-image: url(../images/title_img.jpg);
+    background-size: cover;
+    background-position: center;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-top: 80px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* padding-top: 80px; */
     border-left: 10px solid #fff;
     border-right: 10px solid #fff;
 }
@@ -74,13 +81,26 @@ p {
 }
 #main .title_text {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     padding: 20px 0;
     background: #fff;
 }
 #main .title_text h1 { 
     font-weight: 200;
+}
+#main .title_text h1 > span {
+    display: block;
+    text-indent: 1em;
+}
+
+#main footer {
+    /* background: red; */
+    background: #fff;
+    position: absolute;
+    bottom: 0;left: 0;
+    width: 100%;
+    padding: 20px;
 }
 
 #main .name {
@@ -89,7 +109,6 @@ p {
     /* position: relative; */
     /* bottom: 0px; */
     text-align: right;
-    border-right: 10px solid #fff;
     padding: 20px 0;
 }
 #main .name span {
@@ -101,7 +120,6 @@ p {
     font-size: 16px;
     /* position: relative; */
     text-align: right;
-    border-right: 10px solid #fff;
     font-weight: 200;
 }
 
