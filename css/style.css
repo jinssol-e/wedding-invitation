@@ -10,19 +10,18 @@ a { text-decoration: none;}
 body {
     font-family: 'Noto Serif KR', serif;
     color: #444;
-    background: #fff;
 }
 h1 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
 }
 h2 {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
 }
 p {
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 14px;
 }
 .sub_title {
     text-align: center;
@@ -33,7 +32,7 @@ p {
     position: relative;
 }
 .sub_title h2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200;
     color: #9ed1c7;
 }
@@ -105,7 +104,7 @@ p {
 }
 
 #main .name {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     /* position: relative; */
     /* bottom: 0px; */
@@ -113,12 +112,12 @@ p {
     padding: 20px 0;
 }
 #main .name span {
-    font-size: 12px;
+    font-size: 10px;
     color: #888;
     font-weight: 200;
 }
 #main .date {
-    font-size: 16px;
+    font-size: 14px;
     /* position: relative; */
     text-align: right;
     font-weight: 200;
@@ -153,7 +152,7 @@ p {
     margin: 20px;
 }
 #invitation .phone .info span{
-    font-size: 12px;
+    font-size: 10px;
 }
 #invitation .phone .info .fa-mobile {
     vertical-align: middle;
